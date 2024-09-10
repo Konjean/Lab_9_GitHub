@@ -8,7 +8,7 @@ namespace Lab_9_GitHub
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        Texture2D Texture38d; 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
