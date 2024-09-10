@@ -8,12 +8,24 @@ namespace Lab_9_GitHub
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
         int bgTerman;
+
+
+        Texture2D Texture38d; 
+
+        int wtf;
+
+        bool isHit;
+
+
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            int gg;
         }
 
         protected override void Initialize()
