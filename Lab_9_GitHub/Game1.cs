@@ -9,6 +9,7 @@ namespace Lab_9_GitHub
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+
         int bgTerman;
 
 
@@ -19,6 +20,9 @@ namespace Lab_9_GitHub
         bool isHit;
 
 
+
+
+        bool isHited;
 
         public Game1()
         {
