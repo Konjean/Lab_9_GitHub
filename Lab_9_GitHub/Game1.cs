@@ -14,6 +14,7 @@ namespace Lab_9_GitHub
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            int gg;
         }
 
         protected override void Initialize()
