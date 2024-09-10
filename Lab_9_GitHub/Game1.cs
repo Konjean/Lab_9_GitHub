@@ -10,6 +10,8 @@ namespace Lab_9_GitHub
         private SpriteBatch _spriteBatch;
         int wtf;
 
+        bool isHit;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
